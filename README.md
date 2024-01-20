@@ -1,6 +1,6 @@
-# BundaJS
+# [BundaJS](https://app.privjs.com/my-package?pkg=bunda)
 
-BundaJS is a utility library that simplifies the process of sending HTTP requests through Axios from Socket.io to an Express.js server. It facilitates seamless communication between your Socket.io-powered application and Express.js backend.
+[BundaJS](https://app.privjs.com/my-package?pkg=bunda) is a utility library that simplifies the process of sending HTTP requests through Axios from Socket.io to an Express.js server. It facilitates seamless communication between your Socket.io-powered application and Express.js backend.
 
 ## Features
 
@@ -13,6 +13,8 @@ BundaJS is a utility library that simplifies the process of sending HTTP request
 npm login --registry https://r.privjs.com
 npm i -S bunda --registry https://r.privjs.com
 ```
+
+[https://app.privjs.com/my-package?pkg=bunda](https://app.privjs.com/my-package?pkg=bunda)
 
 ## Usage
 
@@ -56,7 +58,7 @@ function App() {
     const [message, setMessage] = useState("Click to send request");
 
     useEffect(() => {
-        const bunda = new Bunda("localhost:3000"); // Create Bunda instance
+        const bunda = new Bunda("localhost:3000"); // Create BundaJS instance
         bunda.axios(axios);
     }, []);
 
